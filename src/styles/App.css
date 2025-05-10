@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* === Base Colors (Do Not Use Directly) === */
+  --color-dark-1: #222831; /* Very dark gray - use in dark backgrounds */
+  --color-dark-2: #393e46; /* Slate gray - secondary dark backgrounds */
+  --color-accent: #948979; /* Muted accent - use for buttons, icons, links */
+  --color-light: #dfd0b8; /* Warm beige - primary light background or text on dark */
+
+  /* === Dark Theme Overrides === */
+  --color-primary: var(--color-dark-1); /* Page background */
+  --color-dark-secondary: var(--color-dark-2); /* Cards, section backgrounds */
+  --color-primary-text: var(--color-light); /* Main text on dark backgrounds */
+  --color-secondary-text: #cfc6b3; /* Subtext on dark, less contrast */
+  --btn-bg: var(--color-accent); /* Button background */
+  --btn-text: var(--color-light); /* Text color on buttons */
+}
+
+.light-theme {
+  /* === Light Theme Variables === */
+  --bg-primary: var(--color-light); /* Page background */
+  --bg-secondary: #f5f1e7; /* Sections, cards, containers */
+  --text-primary: var(--color-dark-1); /* Main body text */
+  --text-secondary: var(--color-dark-2); /* Subtext, muted labels */
+  --btn-bg: var(--color-accent); /* Button background, link highlight */
+  --btn-text: var(--color-light); /* Text color on buttons */
+}
