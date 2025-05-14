@@ -1,8 +1,9 @@
 import React from "react";
-
+import { Navbar } from "../components/common/Navbar";
 export const ProjectPage = () => {
   return (
     <div>
+      <Navbar />
       <h1 className="text-4xl font-bold text-primary-text">Projects</h1>
       <p className="text-primary-text">
         Here are some of the projects I have worked on:

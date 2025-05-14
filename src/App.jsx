@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="bg-primary min-h-screen p-8 ">
+    <div className="bg-primary min-h-screen p-16">
       <Outlet />
     </div>
   );
